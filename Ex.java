@@ -2,13 +2,13 @@
 import java.util.Scanner;
 public class Ex{
     public static void main(String[] args) {
-	 Scanner in = new Scanner(System.in);
+	 Scanner sc = new Scanner(System.in);
          double mark_avg;
          int result;
          int i;
          int s;
       //define size of array
-       s = in.nextInt();
+       s = sc.nextInt();
      //The array is defined "arr" and inserted marks into it.
       int[] arr = new int[s];   
       for(i=0;i<arr.length;i++)
@@ -41,7 +41,7 @@ avgMarks=mark_avg;
 System.out.print(avgMarks);
  
 
-     in.close();
+     sc.close();
 
     }
 }
